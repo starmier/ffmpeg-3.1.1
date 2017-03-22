@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavcodec
+includedir=${pcfiledir}/../../..
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 57.48.101
+Requires: libswresample >= 2.1.100, libavutil >= 55.28.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavcodec -framework QuartzCore -framework QuartzCore -framework AppKit -framework OpenGL -framework QuartzCore -framework AppKit -framework OpenGL -framework CoreVideo -framework Foundation -framework AVFoundation -framework CoreMedia -framework CoreFoundation -framework VideoToolbox -framework CoreMedia -framework CoreVideo -framework CoreFoundation -framework AudioToolbox -framework CoreMedia -framework VideoDecodeAcceleration -framework CoreFoundation -framework QuartzCore -liconv -Wl,-framework,CoreFoundation -Wl,-framework,Security -L/usr/local/lib -lSDLmain -lSDL -Wl,-framework,Cocoa -framework CoreGraphics -lm -lbz2 -lz -pthread -framework CoreServices
+Cflags: -I${includedir}

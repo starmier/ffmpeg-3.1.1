@@ -1,0 +1,33 @@
+ffmpeg started on 2017-01-23 at 18:02:37
+Report written to "ffreport.log"
+Command line:
+ffmpeg -y thread_type 1 -threads 2 -i stereo25fps.mp4 -vcodec libx264 -s 320x240 out290_222.mp4
+ffmpeg version 3.1.1 Copyright (c) 2000-2016 the FFmpeg developers
+  built with Apple LLVM version 8.0.0 (clang-800.0.42.1)
+  configuration: --enable-gpl --enable-libx264
+  libavutil      55. 28.100 / 55. 28.100
+  libavcodec     57. 48.101 / 57. 48.101
+  libavformat    57. 41.100 / 57. 41.100
+  libavdevice    57.  0.101 / 57.  0.101
+  libavfilter     6. 47.100 /  6. 47.100
+  libswscale      4.  1.100 /  4.  1.100
+  libswresample   2.  1.100 /  2.  1.100
+  libpostproc    54.  0.100 / 54.  0.100
+Splitting the commandline.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'thread_type' ... matched as output file.
+Reading option '1' ... matched as output file.
+Reading option '-threads' ... matched as AVOption 'threads' with argument '2'.
+Reading option '-i' ... matched as input file with argument 'stereo25fps.mp4'.
+Reading option '-vcodec' ... matched as option 'vcodec' (force video codec ('copy' to copy stream)) with argument 'libx264'.
+Reading option '-s' ... matched as option 's' (set frame size (WxH or abbreviation)) with argument '320x240'.
+Reading option 'out290_222.mp4' ... matched as output file.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input file stereo25fps.mp4.
+Successfully parsed a group of options.
+Opening an input file: stereo25fps.mp4.
+[file @ 0x7fba6d502900] Setting default whitelist 'file,crypto'
+stereo25fps.mp4: No such file or directory
